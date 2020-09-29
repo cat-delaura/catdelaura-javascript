@@ -32,6 +32,33 @@
       //Strings on my own
       let greeting = "My name is " + name;
       console.log(greeting);
+      //Functions
+      console.log("Using functions:");
+      //function to make square numbers
+      function makeSquare(theNumb) {
+        let squared = theNumb * theNumb;
+        return squared;
+      }
+      let try01 = makeSquare(3);
+      console.log(try01);
+      let try02 = makeSquare(5);
+      console.log(try02);
+      let try03 = makeSquare(25);
+      console.log(try03);
+      //Using Math.pow()
+      var try04 = Math.pow(6,2);
+      console.log(try04);
+      //Functions on my own
+      function theName(firstName, middleName, lastName) {
+        let name = firstName + " " + middleName + " " + lastName; 
+        return name;
+      }
+      let myName = theName("Cat", "Shawn", "DeLaura");
+      console.log(myName);
+      let friendName = theName("Joey", "Aaron", "DeGroot"); 
+      console.log(friendName);
+      let polName = theName("Robert", "\"Beto\"", "O'Rourke");
+      console.log(polName);
   </script>
 </body>
 </html>
