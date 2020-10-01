@@ -86,6 +86,33 @@
       console.log(scoreCompare(5,3));
       console.log(scoreCompare(3,5));
       console.log(scoreCompare(3,3));
+      //Cat Experimenting
+      console.log("budgetAnalysis function");
+      function budgetAnalysis(monthSpending, budget) {
+        if (monthSpending < budget) {
+          return "Yay. You are under budget. Treat Yo Self!";
+        } else if (monthSpending === budget) {
+          return "You barely met your budget. Don't spend a dime."
+        } else {
+          return "Wow. What happend this month? Stop Treating Yo Self. :("
+        }
+      }
+      console.log(budgetAnalysis(1200, 1600));
+      console.log(budgetAnalysis(1200, 1200));
+      console.log(budgetAnalysis(1500, 1200));
+      //Does this work if budget is a set number? 
+      function budgetAnalysis(monthSpending) {
+        if (monthSpending < 1200) {
+          return "Yay. You are under budget. Treat Yo Self!";
+        } else if (monthSpending === 1200) {
+          return "You barely met your budget. Don't spend a dime."
+        } else {
+          return "Wow. What happend this month? Stop Treating Yo Self. :("
+        }
+      }
+      console.log(budgetAnalysis(1000));
+      console.log(budgetAnalysis(1500));
+
   </script>
 </body>
 </html>
